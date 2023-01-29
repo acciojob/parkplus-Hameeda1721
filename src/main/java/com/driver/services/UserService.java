@@ -1,7 +1,9 @@
 package com.driver.services;
 
 
-public interface UserService {
+import com.driver.model.User;
+
+public interface UserService{
 
 	void deleteUser(Integer userId);
 	User updatePassword(Integer userId, String password);
